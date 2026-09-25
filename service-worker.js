@@ -1,5 +1,5 @@
-const CACHE = 'skat-trainer-v2';
-const FILES = ['./', './index.html', './manifest.webmanifest', './skat-icon.svg'];
+const CACHE = 'skat-trainer-v3';
+const FILES = ['./', './index.html', './app.js', './manifest.webmanifest', './skat-icon.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
   self.skipWaiting();
