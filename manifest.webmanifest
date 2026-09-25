@@ -1,0 +1,11 @@
+{
+  "name": "Skat-Trainer",
+  "short_name": "Skat-Trainer",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f2e8",
+  "theme_color": "#0d3b32",
+  "icons": [{ "src": "skat-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
